@@ -43,7 +43,6 @@ public class Movement
 	
 	public void followPath(Stack<Point2D> path) {
 		if(!following) {
-			System.out.println("inc speed");
 			entity.setProperty("speed", entity.getDouble("speed") * 2);
 			following = true;
 		}
